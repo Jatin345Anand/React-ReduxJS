@@ -1,12 +1,17 @@
 .App {
   text-align: center;
 }
-
+.red{
+  background-color: red;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-
+img{
+  height: 100px;
+  width:  100px;
+}
 .App-header {
   background-color: #222;
   height: 150px;
@@ -16,7 +21,7 @@
 
 .App-title {
   font-size: 1.5em;
-}
+} 
 
 .App-intro {
   font-size: large;

@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import  InputCrud from './components/InputCrud';
+import OutPutCrud from './components/OutputCrud';
 import './App.css';
-import Inputlike from './components/inputlike';
-import Outputlike from './components/outputlike'; 
 class App extends Component {
-  render() {
+  render() { 
     return (
-      <div className="App">
- <h2> FIRST EXAMPLE</h2>
- <Inputlike/>
- <Outputlike/>        
-      </div>
+    <div className="App">
+      <h2>React Redux Example</h2>
+      <InputCrud/>
+      <OutPutCrud/>
+     </div> 
     );
   }
 }
 
 export default App;
- 
